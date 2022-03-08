@@ -1,9 +1,9 @@
-import FruitsOne from "../../Assets/fruits-1.jpg";
-import FruitsTwo from "../../Assets/fruits-2.jpg";
-import FruitsThree from "../../Assets/fruits-3.jpg";
-import FruitsFour from "../../Assets/fruits-4.jpg";
-import FruitsFive from "../../Assets/fruits-5.jpg";
-import FruitsSix from "../../Assets/fruits-6.jpg";
+import FruitsOne from "../../Assets/fruits-1.png";
+import FruitsTwo from "../../Assets/fruits-2.png";
+import FruitsThree from "../../Assets/fruits-3.png";
+import FruitsFour from "../../Assets/fruits-4.png";
+import FruitsFive from "../../Assets/fruits-5.png";
+import FruitsSix from "../../Assets/fruits-6.png";
 
 const FruitsData = [
   {
