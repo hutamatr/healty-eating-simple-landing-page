@@ -3,3 +3,18 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700&display=swap");
+
+@layer components {
+  .card_desc {
+    @apply text-white px-4 py-6 flex flex-col gap-y-4 cursor-pointer md:px-6 md:py-8 hover:scale-95 hover:duration-500 hover:rounded-md;
+  }
+  .ul_grid {
+    @apply grid gap-4 mx-auto grid-cols-1 grid-rows-1 md:grid-flow-col md:grid-cols-3 md:grid-rows-6;
+  }
+  .span_one {
+    @apply col-span-1 row-span-2;
+  }
+  .span_two {
+    @apply col-span-1 row-span-3;
+  }
+}
